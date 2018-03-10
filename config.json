@@ -13,9 +13,7 @@
 
   "defaultConfig": [
     {
-      "category": "emojiSettings",
-      "category_name": "Emoji",
-      "type": "drawer",
+      "category": "default",
       "settings": [
         {
           "id": "currentEmoji",
@@ -67,7 +65,7 @@
 
       "settings": [
         {
-          "category": "emojiSettings",
+          "category": "default",
           "settings": [
             {
               "id": "currentEmoji",
@@ -84,7 +82,7 @@
 
       "settings": [
         {
-          "category": "emojiSettings",
+          "category": "default",
           "settings": [
             {
               "id": "currentEmoji",
@@ -101,7 +99,7 @@
 
       "settings": [
         {
-          "category": "emojiSettings",
+          "category": "default",
           "settings": [
             {
               "id": "currentEmoji",
@@ -118,7 +116,7 @@
 
       "settings": [
         {
-          "category": "emojiSettings",
+          "category": "default",
           "settings": [
             {
               "id": "currentEmoji",
@@ -135,7 +133,7 @@
 
       "settings": [
         {
-          "category": "emojiSettings",
+          "category": "default",
           "settings": [
             {
               "id": "currentEmoji",
@@ -152,7 +150,7 @@
 
       "settings": [
         {
-          "category": "emojiSettings",
+          "category": "default",
           "settings": [
             {
               "id": "currentEmoji",
