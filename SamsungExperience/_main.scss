@@ -1,0 +1,10 @@
+@import "emoji-activities";
+@import "emoji-flags";
+@import "emoji-food";
+@import "emoji-nature";
+@import "emoji-objects";
+@import "emoji-people";
+@import "emoji-symbols";
+@import "emoji-travel";
+
+$samsungexperience-all: collectMaps($samsungexperience-activities, $samsungexperience-flags, $samsungexperience-food, $samsungexperience-nature, $samsungexperience-objects, $samsungexperience-people, $samsungexperience-symbols, $samsungexperience-travel);

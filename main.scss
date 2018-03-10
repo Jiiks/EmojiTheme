@@ -1,0 +1,36 @@
+@import "./defaults";
+
+@import "./EmojiOne3/main";
+@import "./Facebook/main";
+@import "./SamsungExperience/main";
+@import "./AppleColor/main";
+@import "./NotoColorNougat/main";
+@import "./NotoColorOreo/main";
+
+
+@if $currentEmoji == "NotoColorOreo" {
+  $emoji-all: $notocolororeo-all;
+}
+@if $currentEmoji == "NotoColorNougat" {
+  $emoji-all: $notocolornougat-all;
+}
+@if $currentEmoji == "AppleColor" {
+  $emoji-all: $applecolor-all;
+}
+@if $currentEmoji == "SamsungExperience" {
+  $emoji-all: $samsungexperience-all;
+}
+@if $currentEmoji == "Facebook" {
+  $emoji-all: $facebook-all;
+}
+@if $currentEmoji == "EmojiOne3" {
+  $emoji-all: $emojione3-all;
+}
+
+.emoji, .autocompleteRowVertical-3_UxVA .icon-3XfMwL {
+	@each $ori, $rep in $emoji-all {
+		&[src="#{$ori}"] {
+			content: url("#{$rep}");
+		}
+	}
+}

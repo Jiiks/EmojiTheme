@@ -1,0 +1,10 @@
+@import "emoji-activities";
+@import "emoji-flags";
+@import "emoji-food";
+@import "emoji-nature";
+@import "emoji-objects";
+@import "emoji-people";
+@import "emoji-symbols";
+@import "emoji-travel";
+
+$notocolororeo-all: collectMaps($notocolororeo-activities, $notocolororeo-flags, $notocolororeo-food, $notocolororeo-nature, $notocolororeo-objects, $notocolororeo-people, $notocolororeo-symbols, $notocolororeo-travel);

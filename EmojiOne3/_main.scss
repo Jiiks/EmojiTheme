@@ -1,0 +1,10 @@
+@import "emoji-activities";
+@import "emoji-flags";
+@import "emoji-food";
+@import "emoji-nature";
+@import "emoji-objects";
+@import "emoji-people";
+@import "emoji-symbols";
+@import "emoji-travel";
+
+$emojione3-all: collectMaps($emojione3-activities, $emojione3-flags, $emojione3-food, $emojione3-nature, $emojione3-objects, $emojione3-people, $emojione3-symbols, $emojione3-travel);

@@ -1,0 +1,10 @@
+@import "emoji-activities";
+@import "emoji-flags";
+@import "emoji-food";
+@import "emoji-nature";
+@import "emoji-objects";
+@import "emoji-people";
+@import "emoji-symbols";
+@import "emoji-travel";
+
+$notocolornougat-all: collectMaps($notocolornougat-activities, $notocolornougat-flags, $notocolornougat-food, $notocolornougat-nature, $notocolornougat-objects, $notocolornougat-people, $notocolornougat-symbols, $notocolornougat-travel);

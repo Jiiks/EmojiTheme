@@ -1,0 +1,10 @@
+@import "emoji-activities";
+@import "emoji-flags";
+@import "emoji-food";
+@import "emoji-nature";
+@import "emoji-objects";
+@import "emoji-people";
+@import "emoji-symbols";
+@import "emoji-travel";
+
+$facebook-all: collectMaps($facebook-activities, $facebook-flags, $facebook-food, $facebook-nature, $facebook-objects, $facebook-people, $facebook-symbols, $facebook-travel);
