@@ -13,7 +13,9 @@
 
   "defaultConfig": [
     {
-      "category": "default",
+      "category": "emojiSettings",
+      "category_name": "Emoji",
+      "type": "drawer",
       "settings": [
         {
           "id": "currentEmoji",
@@ -51,6 +53,110 @@
               "id": "EmojiOne3",
               "value": "EmojiOne3",
               "text": "EmojiOne v3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "configSchemes": [
+    {
+      "id": "cs_NotoColorOreo",
+      "name": "Android Oreo",
+      "icon_url": "https://intrnl.github.io/EmojiTheme/assets/notocolororeo.png",
+
+      "settings": [
+        {
+          "category": "emojiSettings",
+          "settings": [
+            {
+              "id": "currentEmoji",
+              "value": "NotoColorOreo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cs_NotoColorNougat",
+      "name": "Android Nougat",
+      "icon_url": "https://intrnl.github.io/EmojiTheme/assets/notocolornougat.png",
+
+      "settings": [
+        {
+          "category": "emojiSettings",
+          "settings": [
+            {
+              "id": "currentEmoji",
+              "value": "NotoColorNougat"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cs_AppleColor",
+      "name": "iOS",
+      "icon_url": "https://intrnl.github.io/EmojiTheme/assets/applecolor.png",
+
+      "settings": [
+        {
+          "category": "emojiSettings",
+          "settings": [
+            {
+              "id": "currentEmoji",
+              "value": "AppleColor"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cs_SamsungExperience",
+      "name": "Samsung",
+      "icon_url": "https://intrnl.github.io/EmojiTheme/assets/samsungexperience.png",
+
+      "settings": [
+        {
+          "category": "emojiSettings",
+          "settings": [
+            {
+              "id": "currentEmoji",
+              "value": "SamsungExperience"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cs_Facebook",
+      "name": "Facebook",
+      "icon_url": "https://intrnl.github.io/EmojiTheme/assets/facebook.png",
+
+      "settings": [
+        {
+          "category": "emojiSettings",
+          "settings": [
+            {
+              "id": "currentEmoji",
+              "value": "Facebook"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cs_EmojiOne3",
+      "name": "EmojiOne v3",
+      "icon_url": "https://intrnl.github.io/EmojiTheme/assets/emojione3.png",
+
+      "settings": [
+        {
+          "category": "emojiSettings",
+          "settings": [
+            {
+              "id": "currentEmoji",
+              "value": "EmojiOne3"
             }
           ]
         }
