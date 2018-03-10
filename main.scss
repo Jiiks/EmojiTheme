@@ -1,11 +1,11 @@
 @import "./defaults";
 
-@import "./EmojiOne3/main";
-@import "./Facebook/main";
-@import "./SamsungExperience/main";
-@import "./AppleColor/main";
-@import "./NotoColorNougat/main";
 @import "./NotoColorOreo/main";
+@import "./NotoColorNougat/main";
+@import "./AppleColor/main";
+@import "./SamsungExperience/main";
+@import "./Facebook/main";
+@import "./EmojiOne3/main";
 
 
 @if $currentEmoji == "NotoColorOreo" {
