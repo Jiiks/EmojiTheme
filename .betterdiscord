@@ -1,0 +1,23 @@
+[
+  {
+    "type": "theme",
+    "name": "EmojiTheme",
+    "version": "1.0",
+    "authors": [
+      {
+        "discord_username": ".intrnl",
+        "discord_id": "177744816665395200",
+        "github_username": "intrnl",
+        "github_override": false
+      }
+    ],
+
+    "src": "EmojiTheme",
+    "release": {
+      "id": "6468828",
+      "package": "EmojiTheme.zip"
+    },
+
+    "tags": [ "emoji" ]
+  }
+]
