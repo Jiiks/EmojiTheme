@@ -6,6 +6,7 @@
 @import "./SamsungExperience/main";
 @import "./Facebook/main";
 @import "./EmojiOne3/main";
+@import "./EmojiTwo/main";
 
 
 @if $currentEmoji == "NotoColorOreo" {
@@ -25,6 +26,9 @@
 }
 @if $currentEmoji == "EmojiOne3" {
   $emoji-all: $emojione3-all;
+}
+@if $currentEmoji == "EmojiTwo" {
+  $emoji-all: $emojitwo-all;
 }
 
 .emoji, .autocompleteRowVertical-3_UxVA .icon-3XfMwL {

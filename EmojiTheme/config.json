@@ -3,7 +3,7 @@
   "info": {
     "name": "EmojiTheme",
     "version": 1.0,
-    "description": "A collection of emoji sets that you can use to replace Discord's default ones. \\n Theme icon taken from EmojiOne v3.",
+    "description": "A collection of emoji sets that you can use to replace Discord's default ones. \\n Theme icon taken from EmojiOne 3.1.",
     "authors": [ ".intrnl#6939" ],
     "icon": "data:image/png;base64,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",
     "type": "sass"
@@ -50,7 +50,12 @@
             {
               "id": "EmojiOne3",
               "value": "EmojiOne3",
-              "text": "EmojiOne v3"
+              "text": "EmojiOne 3.1"
+            },
+            {
+              "id": "EmojiTwo",
+              "value": "EmojiTwo",
+              "text": "EmojiOne 2.7 (EmojiTwo)"
             }
           ]
         }
@@ -145,7 +150,7 @@
     },
     {
       "id": "cs_EmojiOne3",
-      "name": "EmojiOne v3",
+      "name": "EmojiOne 3.1",
       "icon_url": "https://intrnl.github.io/EmojiTheme/assets/emojione3.png",
 
       "settings": [
@@ -155,6 +160,23 @@
             {
               "id": "currentEmoji",
               "value": "EmojiOne3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cs_EmojiTwo",
+      "name": "EmojiOne 2.7 (EmojiTwo)",
+      "icon_url": "https://intrnl.github.io/EmojiTheme/assets/emojitwo.png",
+
+      "settings": [
+        {
+          "category": "default",
+          "settings": [
+            {
+              "id": "currentEmoji",
+              "value": "EmojiTwo"
             }
           ]
         }
