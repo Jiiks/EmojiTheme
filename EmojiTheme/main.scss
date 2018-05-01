@@ -31,7 +31,7 @@
   $emoji-all: $emojitwo-all;
 }
 
-.emoji, .autocompleteRowVertical-3_UxVA .icon-3XfMwL {
+.emoji, .autocompleteRowVertical-q1K4ky .icon-3ZzoN7 {
 	@each $ori, $rep in $emoji-all {
 		&[src="#{$ori}"] {
 			content: url("#{$rep}");
