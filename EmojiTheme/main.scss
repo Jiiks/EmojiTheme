@@ -1,22 +1,3 @@
-@import "./defaults";
-
-@import "./NotoColorOreo/main";
-@import "./NotoColorNougat/main";
-@import "./AppleColor/main";
-@import "./SamsungExperience/main";
-@import "./Facebook/main";
-@import "./EmojiOne3/main";
-@import "./EmojiTwo/main";
-
-@if $currentEmoji == "NotoColorOreo" { $emoji-all: $notocolororeo-all; }
-@if $currentEmoji == "NotoColorNougat" { $emoji-all: $notocolornougat-all; }
-@if $currentEmoji == "AppleColor" { $emoji-all: $applecolor-all; }
-@if $currentEmoji == "SamsungExperience" { $emoji-all: $samsungexperience-all; }
-@if $currentEmoji == "Facebook" { $emoji-all: $facebook-all; }
-@if $currentEmoji == "EmojiOne3" { $emoji-all: $emojione3-all; }
-@if $currentEmoji == "EmojiTwo" { $emoji-all: $emojitwo-all; }
-
-
 .emoji, .autocompleteRowVertical-q1K4ky .icon-3ZzoN7 {
 	@each $ori, $rep in $emoji-all {
 		&[src="#{$ori}"] { content: url("#{$rep}"); }

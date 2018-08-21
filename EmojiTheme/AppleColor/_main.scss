@@ -7,4 +7,4 @@
 @import "emoji-symbols";
 @import "emoji-travel";
 
-$applecolor-all: collectMaps($applecolor-activities, $applecolor-flags, $applecolor-food, $applecolor-nature, $applecolor-objects, $applecolor-people, $applecolor-symbols, $applecolor-travel);
+$emoji-all: collectMaps($applecolor-activities, $applecolor-flags, $applecolor-food, $applecolor-nature, $applecolor-objects, $applecolor-people, $applecolor-symbols, $applecolor-travel);

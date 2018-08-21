@@ -7,4 +7,4 @@
 @import "emoji-symbols";
 @import "emoji-travel";
 
-$samsungexperience-all: collectMaps($samsungexperience-activities, $samsungexperience-flags, $samsungexperience-food, $samsungexperience-nature, $samsungexperience-objects, $samsungexperience-people, $samsungexperience-symbols, $samsungexperience-travel);
+$emoji-all: collectMaps($samsungexperience-activities, $samsungexperience-flags, $samsungexperience-food, $samsungexperience-nature, $samsungexperience-objects, $samsungexperience-people, $samsungexperience-symbols, $samsungexperience-travel);

@@ -7,4 +7,4 @@
 @import "emoji-symbols";
 @import "emoji-travel";
 
-$emojitwo-all: collectMaps($emojitwo-activities, $emojitwo-flags, $emojitwo-food, $emojitwo-nature, $emojitwo-objects, $emojitwo-people, $emojitwo-symbols, $emojitwo-travel);
+$emoji-all: collectMaps($emojitwo-activities, $emojitwo-flags, $emojitwo-food, $emojitwo-nature, $emojitwo-objects, $emojitwo-people, $emojitwo-symbols, $emojitwo-travel);

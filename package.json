@@ -7,6 +7,11 @@
   "license": "GPL-3.0",
   "devDependencies": {
     "clean-css": "^4.2.1",
-    "node-sass": "^4.9.3"
+    "gulp": "^3.9.1",
+    "gulp-inject-string": "^1.1.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.1",
+    "node-sass": "^4.9.3",
+    "pump": "^3.0.0"
   }
 }

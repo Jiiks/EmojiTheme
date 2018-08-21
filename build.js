@@ -1,35 +1,36 @@
-let fs = require('fs')
-let path = require('path')
+const gulp = require('gulp');
+const pump = require('pump');
+const sass = require('gulp-sass');
+const rename = require('gulp-rename');
+const { prepend } = require('gulp-inject-string');
 
-let sass = require('node-sass')
-let cleancss = require('clean-css')
+const { readdirSync, lstatSync } = require('fs');
+const { join } = require('path');
 
+const { name, description, authors, version, source } = require('./EmojiTheme/config').info;
 
-let { info: config } = require('./EmojiTheme/config.json')
+const meta = {
+    name,
+    description,
+    author: authors.map(author => author.name).join(', '),
+    version: version.toString(),
+    source
+};
 
-let meta = {
-  name: config.name,
-  description: config.description,
-  author: config.authors.map(author => author.name).join(', '),
-  version: config.version.toString(),
-  source: config.source
-}
+const gulpTask = function (src, dest, filename, meta) {
+    return pump([
+        gulp.src('./EmojiTheme/main.scss'),
+        prepend(`@import './defaults'; @import './${src}/main';`),
+        sass().on('error', sass.logError),
+        prepend(meta),
+        rename(filename),
+        gulp.dest(dest)
+    ]);
+};
 
-
-let isDirectory = source => fs.lstatSync(path.join(__dirname, 'EmojiTheme', source)).isDirectory()
-
-fs.readdirSync('./EmojiTheme').filter(isDirectory).forEach(dir => {
-  console.log(`Building ${dir}`)
-
-  meta.name = `EmojiTheme_${dir}`
-  meta.description = `Bringing the emojis from '${dir}' set to Discord.`
-
-  let builtmeta = `/*//META${JSON.stringify(meta)}*//**/\r\n`
-
-  let data = sass.renderSync({
-    data: `$currentEmoji: ${dir}; @import "EmojiTheme/main";`,
-    includePaths: ['./EmojiTheme']
-  })
-
-  fs.writeFileSync(`./bdv1/${meta.name}.theme.css`, builtmeta + data.css)
-})
+const isDirectory = source => lstatSync(join(__dirname, 'EmojiTheme', source)).isDirectory();
+readdirSync('./EmojiTheme').filter(isDirectory).forEach(dir => {
+    const filename = meta.name = `EmojiTheme_${dir}`;
+    meta.description = `Bringing the emojis from '${dir}' set to Discord.`;
+    gulpTask(dir, './bdv1', `${filename}.theme.css`, `/*//META${JSON.stringify(meta)}*//**/\r\n`);
+});

@@ -7,4 +7,4 @@
 @import "emoji-symbols";
 @import "emoji-travel";
 
-$facebook-all: collectMaps($facebook-activities, $facebook-flags, $facebook-food, $facebook-nature, $facebook-objects, $facebook-people, $facebook-symbols, $facebook-travel);
+$emoji-all: collectMaps($facebook-activities, $facebook-flags, $facebook-food, $facebook-nature, $facebook-objects, $facebook-people, $facebook-symbols, $facebook-travel);
