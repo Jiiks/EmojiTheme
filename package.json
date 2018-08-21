@@ -2,23 +2,11 @@
   "name": "EmojiTheme",
   "version": "1.0.0",
   "description": "A collection of emoji sets that you can use to replace Discord's default ones.",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "bdv1:build": "node bdv1_build"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/intrnl/EmojiTheme.git"
-  },
-  "keywords": [],
-  "author": "intrnl",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/intrnl/EmojiTheme/issues"
-  },
-  "homepage": "https://github.com/intrnl/EmojiTheme#readme",
-  "dependencies": {
-    "clean-css": "^4.1.11",
-    "sass": "^1.9.0"
+  "repository": "https://github.com/intrnl/EmojiTheme.git",
+  "author": "intrnl <intrnl28@gmail.com>",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "clean-css": "^4.2.1",
+    "node-sass": "^4.9.3"
   }
 }
